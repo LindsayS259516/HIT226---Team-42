@@ -1,0 +1,86 @@
+﻿
+<!-- Lindsay Hamston S259516, Prac 2 Stylesheet -->
+
+
+<!--  HEADINGS & FONTS -->
+
+.highlightme { background-color:#FFFF00; }
+
+<!--  Applies to all <body> elements. */
+body {
+  margin: 25px;
+  background-color: rgba(230, 230, 255, 0.5);
+  font-family: Georgia, sans-serif;
+  font-size: 14px;
+}
+
+<!--  Applies to all <h1> elements. -->
+h1 {
+  font-size: 300%;
+  font-weight: normal;
+  margin-top: 5px;
+  font-family: Aileron, sans-serif;
+  color: blue;
+  
+}
+
+<!--  Applies to all <h2> elements. -->
+h2 {
+  font-size: 200%;
+  font-weight: normal;
+  margin-top: 5px;
+  font-weight: bold;
+  font-family:Corbert Condensed Italic;
+}
+
+<!--  Applies to all <h3> elements. -->
+h3 {
+  font-size: 150%;
+  font-weight: normal;
+  margin-top: 5px;
+  font-family: verdana, sans-serif;
+  text-decoration: underline;
+}
+
+<!--  Applies to all <h4> elements. -->
+h4 {
+  font-size: 150%;
+  font-weight: normal;
+  margin-top: 5px;
+  font-family: verdana, sans-serif;
+  text-decoration: underline;
+}
+
+<!--  Applies to all <p> elements. -->
+p {
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 5px;
+  font-family: verdana, sans-serif;
+}
+
+p.italic {
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 5px;
+  font-family: verdana, sans-serif;
+  font-style: italic;
+}
+
+
+<!--  2 COLUMNS   -->
+
+
+.tbox1 {
+    width: 80%;
+}
+
+.tbox2
+  
+  .tbox1 {
+    float: left;
+  }
+
+  .tbox2 {
+    float: right; 
+  }
